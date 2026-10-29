@@ -1,0 +1,21 @@
+{
+  "name": "kush-middha-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Kush Middha featuring interactive timeline and Claude-powered AI chatbot",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "vanilla-js",
+    "css",
+    "serverless",
+    "vercel",
+    "anthropic",
+    "claude"
+  ],
+  "author": "Kush Middha <arorakush081@gmail.com>",
+  "license": "MIT"
+}

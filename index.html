@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kush Middha | Video Editor, Designer and CSE Student</title>
+<meta name="description" content="Portfolio of Kush Middha, a video editor, graphic designer, photographer and Computer Science Engineering student at JECRC University, Jaipur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home">Kush Middha</a>
+  <nav aria-label="Main">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#chat">Chatbot</a><a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" class="icon-btn" aria-label="Switch to light mode" type="button">Light</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <p class="role">Video editor, graphic designer, photographer and videographer</p>
+  <h1>Kush<br>Middha</h1>
+  <p class="lead">I'm a creative media professional and Computer Science Engineering student who cares about visual storytelling, digital design and experiences that leave an impression.</p>
+  <div class="cta"><a class="btn primary" href="#projects">Explore my work</a><a class="btn" href="#contact">Contact me</a></div>
+
+  <div class="timeline" id="timeline" aria-hidden="true">
+    <div class="tc" id="tc">00:00:00:00</div>
+    <div class="ruler"></div>
+    <div class="track"><span style="left:2%;width:34%">Video editing</span><span style="left:40%;width:26%">Post-production</span><span style="left:70%;width:26%">Cinematic edits</span></div>
+    <div class="track"><span style="left:8%;width:30%">Graphic design</span><span style="left:42%;width:22%">Social creatives</span><span style="left:68%;width:28%">Branding</span></div>
+    <div class="track"><span style="left:0;width:24%">Photography</span><span style="left:28%;width:38%">Videography</span><span style="left:70%;width:26%">Event coverage</span></div>
+    <div class="playhead" id="playhead"></div>
+  </div>
+</section>
+
+<section id="about" class="wrap">
+  <h2>About me</h2>
+  <div class="about">
+    <img src="assets/profile.jpg" alt="Portrait of Kush Middha" width="320" height="400" onerror="this.style.display='none'">
+    <div>
+      <p>I'm a B.Tech student in Computer Science Engineering at JECRC University, Jaipur. I combine a creative eye with technical knowledge, so I can both shape a story in the edit and build the tools to share it.</p>
+      <h3>Experience</h3>
+      <ul class="xp">
+        <li><strong>Video editor</strong>, Jaipur-based company. Edit video content from raw footage to final cut.</li>
+        <li><strong>JU VERSE media team</strong>. Video editing, plus graphic design, photography and videography.</li>
+      </ul>
+      <h3>Education</h3>
+      <p>B.Tech, Computer Science Engineering, JECRC University, Jaipur.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="wrap">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Video</h3><p>Video editing, cinematic storytelling, post-production</p></div>
+    <div><h3>Design</h3><p>Graphic design, visual communication, creative layouts</p></div>
+    <div><h3>Media</h3><p>Photography, videography, event coverage</p></div>
+    <div><h3>Technical</h3><p>Computer Science Engineering, Python, C++, HTML, CSS, JavaScript, Git and GitHub, Cursor AI</p></div>
+  </div>
+</section>
+
+<section id="projects" class="wrap">
+  <h2>My projects</h2>
+  <label class="sr" for="search">Search projects by name or technology</label>
+  <input id="search" type="search" placeholder="Search by name or technology, e.g. Python, Quiz, Book" autocomplete="off">
+  <p id="count" class="muted" aria-live="polite"></p>
+  <div id="grid" class="grid"></div>
+</section>
+
+<section id="chat" class="wrap">
+  <h2>Ask my portfolio</h2>
+  <p class="muted">Ask about my skills, projects or background. Answers come from the information on this site.</p>
+  <div class="chat">
+    <div id="log" class="log" role="log" aria-live="polite"></div>
+    <div class="chips" id="chips"></div>
+    <form id="chat-form">
+      <label class="sr" for="msg">Your question</label>
+      <input id="msg" placeholder="Type your question" autocomplete="off" required>
+      <button class="btn primary" type="submit" id="send">Send</button>
+    </form>
+  </div>
+</section>
+
+<section id="contact" class="wrap">
+  <h2>Contact</h2>
+  <p class="lead">Want to work together or have a question about a project? Reach me on LinkedIn or see my code on GitHub.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://www.linkedin.com/in/kush-middha-650722381" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/arorakush081-png" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</section>
+</main>
+<footer>Kush Middha, JECRC University, Jaipur</footer>
+<script src="script.js"></script>
+</body>
+</html>
